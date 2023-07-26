@@ -1,0 +1,366 @@
+@font-face {
+  font-family: Jakarta-Sans;
+  src: url(fonts/PlusJakartaSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Jakarta-Sans;
+  src: url(fonts/PlusJakartaSans-Bold.ttf);
+  font-weight: bold;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    background-color: #c9c7c6;
+  }
+  
+  section {
+    margin: 0 16px;
+  }
+  
+  section.full-screen {
+    margin: 0;
+  }
+
+nav {
+    position: sticky;
+    background-color: white;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    /*  */
+  }
+
+nav .mobile{
+  cursor: pointer;
+}
+
+  nav > span >img{
+    height: 50px;
+  }
+
+  nav > .nav-bar{
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    padding: 8px;
+  }
+
+  nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+  
+  }
+
+  .btn {
+    background-color: #051a42;
+    border: none;
+    color: white;
+    padding: 26px;
+    font-size: 16px;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+  }
+
+  header{
+    text-align: center;
+    color: black;
+    background-image: url('image/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 180px 0 165px;
+    margin-top: -73px
+  }
+
+  header > button{
+    padding: 12px 16px;
+    background-color: orange;
+    width: 6%;
+    position: relative;
+    left: 47%;
+    top: 10%;
+    border: none;
+    border-radius: 1rex;
+    cursor: pointer;
+    margin-top: 100px;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: white;
+    color: black;
+    padding: 14px 16px;
+    background-color: white;
+    font-family: inherit;
+    margin: 0;
+    background-color: transparent;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: inline-block;
+  }
+
+  .container{
+    display: flex;
+    background-color: white ;
+    align-items: center ;
+    width: 40%;
+    margin: 0;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    position: sticky;
+  }
+
+  .container > div{
+    padding: 10px;
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .container > ul{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container ul > li {
+    display: inline-block;
+    /* padding: 50px; */
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+
+  .popular{
+    display: flex;
+    background-color: #051a42;
+    width: 100%;
+    margin: 0;
+    height: 600px;
+    margin-top: -50px;
+  }
+
+  .popular > ul{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popular > ul >li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: -50px;
+  }
+
+  .popular > ul > li > p{
+    display: block;
+  }
+
+  .container-content{
+    display: flex;
+    gap: 1px;
+    height: 600px;
+    background-size: cover;
+    margin-top: -230px;
+  }
+
+  .container-content > div > button{
+    padding: 12px 16px;
+    background-color: orange;
+    position: relative;
+    top: 25%;
+    border: none;
+    border-radius: 1rex;
+    cursor: pointer;
+    margin-top: 180px;
+    cursor: pointer;
+  } 
+
+  .card-travel{
+    background-image: url(image/bali.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 500px;
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .card-travel2{
+    background-image: url(image/Bromo.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 500px;
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .card-travel3{
+    background-image: url(image/nusa\ penida.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 500px;
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .card-travel4{
+    background-image: url(image/karimun.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 500px;
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .network {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 0;
+  }
+
+  .img-partner{
+    margin-left: 20%;
+    margin-right: 0;
+  }
+
+  .network > ul > li{
+    text-decoration: none;
+    display: block;
+  }
+
+  .comment{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 300px;
+  }
+
+  .comment > ul{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .comment > ul > li{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-testimonial{
+    display: flex;
+    grid-gap: 100px;
+    grid-auto-rows: 500px 60px;
+    width: 70%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-testimonial > div > hr{
+    width: 100%;
+    margin-top: 60%;
+  }
+
+  .card-testimonial > div > p{
+    margin-top: 30px;
+  }
+
+  .testimonial{
+    border-style: solid;
+    border-color: black;
+    border-radius: 1rem;
+    border-width: 1px;
+    text-align: center;
+    padding: 40px 20px 10px;
+  }
+
+
+  .testimonial > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+
+  .footer-info{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-top: 0.5px solid #12111d;;
+    border-bottom: 0.5px solid #12111d;
+  }
+
+  .footer-info > .info > ul{
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 120px;
+  }
+
+  .footer-info > .info> ul > li{
+    display: block;
+    text-decoration: none;
+    padding-top: 20px;
+  }
+
+  .copyright > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
